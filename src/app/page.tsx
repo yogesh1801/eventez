@@ -90,11 +90,11 @@ export default function Home() {
         </CardHeader>
         <CardContent>
           <div className="flex justify-left text-xl font-semibold">
-          Right now, we're<br />
-          onboarding vendors at no<br/>
-          cost. Leverage our platform<br />
-          and its benefits without any<br />
-          upfront investment<br />
+          {"Right now, we're"}<br />
+          {"onboarding vendors at no"}<br/>
+          {"cost. Leverage our platform"}<br />
+          {"and its benefits without any"}<br />
+          {"upfront investment"}<br />
           </div>
         </CardContent>
       </Card>
@@ -112,15 +112,14 @@ export default function Home() {
         <div className="flex justify mt-10">
         <Image src={demand} alt="image" width={100} height={100} className="mt-3"/>
         <h2 className="mt-2 ml-5 text-xl tracking-wider transition-colors">
-          <b>Increased Customer Conversion Rate (Estimated 20% Increase): </b>Our platform
-          streamlines the plannig process, leading to higher customer engagement and conversion rates.
+          <b>{"Increased Customer Conversion Rate (Estimated 20% Increase): "}</b>{"Our platform streamlines the plannig process, leading to higher customer engagement and conversion rates."}
         </h2>
         </div>
         <div className="flex justify mt-10">
         <Image src={revenue} alt="image" width={100} height={100} className="mt-3"/>
         <h2 className="mt-2 ml-5 text-xl tracking-wider transition-colors">
-          <br/><b>Boosted Event Frequency (Estimated 15% Increase): </b>
-          EventEZ makes planning effortless, encouraging customers to host more events
+          <br/><b>{"Boosted Event Frequency (Estimated 15% Increase): "}</b>
+          {"EventEZ makes planning effortless, encouraging customers to host more events"}
         </h2>
         </div>
       </h2>

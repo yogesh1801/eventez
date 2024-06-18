@@ -21,7 +21,7 @@ import {
 export default function Home() {
   return (
     <>
-    <div className="flex justify-between mt-5 mx-5">
+    <div className="flex flex-wrap justify-between mt-5 mx-5">
       <h2 className="text-3xl font-semibold tracking-tight transition-colors">
         EventEZ
       </h2>
@@ -32,7 +32,7 @@ export default function Home() {
       </Button>
     </div>
 
-    <div className="mx-8 flex justify-between">
+    <div className="mx-8 flex flex-wrap justify-between">
       <h2 className="mt-[110px] mx-[80px] text-4xl font-bold tracking-wider transition-colors">
         Revolutionize YourEvent <br />
         Business with EventEZ <br />
@@ -46,13 +46,13 @@ export default function Home() {
       height={100}/>
     </div>
 
-    <div className="flex justify-center">
+    <div className="flex flex-wrap justify-center">
       <h2 className="-mt-10 text-4xl font-bold tracking-wider transition-colors">
         Why Partner with EventEZ?
       </h2>
     </div>
 
-    <div className="flex justify-between mx-[100px] mt-[100px] mb-5">
+    <div className="flex flex-wrap justify-between mx-[100px] mt-[100px] mb-5">
       <Card>
         <CardHeader>
         <CardTitle>
@@ -62,7 +62,7 @@ export default function Home() {
         </CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="flex justify-left text-xl font-semibold">
+          <div className="flex flex-wrap justify-left text-xl font-semibold">
           We’re the first to offer<br />
           immersive 3D venue<br/>
           tours through AR/VR,<br />
@@ -79,7 +79,7 @@ export default function Home() {
           </div></CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="flex justify-left text-xl font-semibold">
+          <div className="flex flex-wrap justify-left text-xl font-semibold">
           Be a frontrunner in<br />
           event tech! Partner with<br/>
           us now and capitalize on<br />
@@ -96,7 +96,7 @@ export default function Home() {
           </div></CardTitle>
         </CardHeader>
         <CardContent>
-          <div className="flex justify-left text-xl font-semibold">
+          <div className="flex flex-wrap justify-left text-xl font-semibold">
           {"Right now, we're"}<br />
           {"onboarding vendors at no"}<br/>
           {"cost. Leverage our platform"}<br />
@@ -107,22 +107,22 @@ export default function Home() {
       </Card>
     </div>
 
-    <div className="flex justify-center">
+    <div className="flex flex-wrap justify-center">
       <h2 className="mt-10 mb-[50px] text-4xl font-bold tracking-wider transition-colors">
       Benefits for Our Partners
       </h2>
     </div>
 
-    <div className="mx-8 flex justify-between">
+    <div className="mx-8 flex flex-wrap justify-between">
     <h2 className="mt-[50px] mx-[20px] text-4xl font-bold tracking-wider transition-colors">
         Boost Your Business Like Never Before<br />
-        <div className="flex justify mt-10">
+        <div className="flex flex-wrap justify mt-10">
         <Image src={demand} alt="image" width={100} height={100} className="mt-3"/>
         <h2 className="mt-2 ml-5 text-xl tracking-wider transition-colors">
           <b>{"Increased Customer Conversion Rate (Estimated 20% Increase): "}</b>{"Our platform streamlines the plannig process, leading to higher customer engagement and conversion rates."}
         </h2>
         </div>
-        <div className="flex justify mt-10">
+        <div className="flex flex-wrap justify mt-10">
         <Image src={revenue} alt="image" width={100} height={100} className="mt-3"/>
         <h2 className="mt-2 ml-5 text-xl tracking-wider transition-colors">
           <br/><b>{"Boosted Event Frequency (Estimated 15% Increase): "}</b>
@@ -133,11 +133,11 @@ export default function Home() {
       <Image src={businessgrowth} alt="image" width={400} height={200} className="mt-[70px]"/>
     </div>
 
-    <div className="mx-8 flex justify-between mb-5">
+    <div className="mx-8 flex flex-wrap justify-between mb-5">
     <Image src={partnership} alt="image" width={400} height={200} className="mt-[70px] mr-12"/>
     <h2 className="mt-[130px] mr-[20px] text-4xl font-bold tracking-wider transition-colors">
         Join a Growing Network of Successful Partners<br />
-        <div className="flex justify mt-10">
+        <div className="flex flex-wrap justify mt-10">
         <h2 className="mt-2 ml-5 text-xl tracking-wider transition-colors">
           {"We are proud to have already onboarded prestigious establishments like the "}
           {"establishments like the "}
@@ -148,17 +148,17 @@ export default function Home() {
       </h2>
     </div>
 
-    <div className="flex justify-center mb-10 mt-10">
+    <div className="flex flex-wrap justify-center mb-10 mt-10">
         <h2 className="mt-2 text-4xl font-bold tracking-wider transition-colors">
           {"Contact Us"}
         </h2>
     </div>
 
-    <div className="flex justify-between mx-[300px] mb-10">
-      <div className="flex justify-center">
+    <div className="flex flex-wrap justify-between mx-[300px] mb-10">
+      <div className="flex flex-wrap justify-center">
         <PhoneIcon className="mr-5" /> { "+91-9109332026" }
       </div>
-      <div className="flex justify-center">
+      <div className="flex flex-wrap justify-center">
         <MailIcon className="mr-5" /> {"eventez@eventez.co.in"}
       </div>
     </div>

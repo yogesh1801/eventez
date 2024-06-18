@@ -1,9 +1,14 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
 import cateringservice from "@/assets/cateringservice.png"
 import businessgrowth from "@/assets/Business growth-rafiki.png"
 import demand from "@/assets/demand.png"
 import revenue from "@/assets/revenue.png"
 import Image from "next/image"
+import partnership from "@/assets/Partnership-amico.png"
+import { PhoneIcon } from "lucide-react"
+import { MailIcon } from "lucide-react"
 import {
   Card,
   CardContent,
@@ -20,7 +25,9 @@ export default function Home() {
       <h2 className="text-3xl font-semibold tracking-tight transition-colors">
         EventEZ
       </h2>
-      <Button>
+      <Button onClick={() => {
+        window.location.href = "https://forms.gle/wakVKERmvYQnRcD56"
+      }}>
         <b>JOIN US</b>
       </Button>
     </div>
@@ -106,7 +113,7 @@ export default function Home() {
       </h2>
     </div>
 
-    <div className="mx-8 flex justify-between mb-5">
+    <div className="mx-8 flex justify-between">
     <h2 className="mt-[50px] mx-[20px] text-4xl font-bold tracking-wider transition-colors">
         Boost Your Business Like Never Before<br />
         <div className="flex justify mt-10">
@@ -124,6 +131,36 @@ export default function Home() {
         </div>
       </h2>
       <Image src={businessgrowth} alt="image" width={400} height={200} className="mt-[70px]"/>
+    </div>
+
+    <div className="mx-8 flex justify-between mb-5">
+    <Image src={partnership} alt="image" width={400} height={200} className="mt-[70px] mr-12"/>
+    <h2 className="mt-[130px] mr-[20px] text-4xl font-bold tracking-wider transition-colors">
+        Join a Growing Network of Successful Partners<br />
+        <div className="flex justify mt-10">
+        <h2 className="mt-2 ml-5 text-xl tracking-wider transition-colors">
+          {"We are proud to have already onboarded prestigious establishments like the "}
+          {"establishments like the "}
+          <b><h2 className="text-[#3FE0D0]">{"Windsor Hotel in Patna, Cafe 53, Paradise Inn Food Palace "}</h2></b>
+          {"and many more across different cities. Partner with us and gain access to a thriving network of event professionals."}
+        </h2>
+        </div>
+      </h2>
+    </div>
+
+    <div className="flex justify-center mb-10 mt-10">
+        <h2 className="mt-2 text-4xl font-bold tracking-wider transition-colors">
+          {"Contact Us"}
+        </h2>
+    </div>
+
+    <div className="flex justify-between mx-[300px] mb-10">
+      <div className="flex justify-center">
+        <PhoneIcon className="mr-5" /> { "+91-9109332026" }
+      </div>
+      <div className="flex justify-center">
+        <MailIcon className="mr-5" /> {"eventez@eventez.co.in"}
+      </div>
     </div>
     </>
   )
